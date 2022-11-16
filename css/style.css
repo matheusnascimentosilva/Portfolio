@@ -4,6 +4,7 @@ body,html{
     margin: 0;
     font: bold 15px 'Open Sans Light', Arial, sans-serif;
 
+
 }
 
 ul {
@@ -39,7 +40,7 @@ a:after {
     height: 2px;
     left: 50%;
     position: absolute;
-    background:yellow;
+    background:#f6c100;
     transition: width 0.4s ease 0s, left 0.4s ease 0s;
     content: "";
     width: 0;
@@ -51,13 +52,18 @@ a:hover:after{
 }
 
 h1{
-    color: #af0505;
+    color: #f6c100;
     text-align: center;
+    font-size: 50px;
+}
+h1:hover{
+    color:wheat;
 }
 p{
     color: wheat;
     font: bold 20px 'Open Sans Light', Arial, sans-serif;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
 }
 
@@ -66,20 +72,22 @@ p{
 }
 footer{
     color:black;
-    background: yellow;
+    background: #f6c100;
     width: 100%;
-    height: 50px;
+    height: 100px;
 }
 .footer{
     text-align: center;
     font: bold 15px 'Open Sans Light', Arial, sans-serif;
+    margin-top: 100px;
 }
 .span{
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .btn{
     background: none;
-    border: 2px solid yellow;
+    border: 2px solid #f6c100;
     font: inherit;
     line-height: 1;
     margin: 0.5em;
@@ -88,7 +96,7 @@ footer{
 
 }
 .btn:hover{
-    background: yellow;
+    background: #f6c100;
     color: black;
 }
 .div_center{
@@ -96,7 +104,6 @@ footer{
     align-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
     display: flex;
 }
 
