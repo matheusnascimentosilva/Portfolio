@@ -114,7 +114,7 @@ a:hover:after{
     place-items: center;
     text-align: center;
     font-size: 100px;
-    color: #87cccc;
+    color: #1036cc;
 }
 .titulo:hover{
     color: #ffffff;
@@ -137,4 +137,44 @@ a:hover:after{
 li{
     list-style: none;
     display: inline-block;
+}
+
+h2{
+    place-items: center;
+    text-align: center;
+    color: #87cccc;
+}
+h3{
+    place-items: center;
+    text-align: center;
+    color: #87cccc;
+}
+.div {
+    width: 100px;
+    height: 50px;
+    background: #0048ff;
+    transition: width 2s;
+    text-align: center;
+    padding: 10px 10px;
+    font-style: oblique;
+    color: white;
+    display: inline;
+}
+div:hover{
+    background-color: #68a1fd;
+    font-size: 20px;
+}
+
+form{
+    place-items: center;
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+input{
+    font-size: 30px;
+    border: aqua solid 2px;
+    background-color: #03033f;
+    color: white;
 }
