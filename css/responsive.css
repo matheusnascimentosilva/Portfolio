@@ -1,0 +1,11 @@
+/*
+    Regras para deixar o site responsivo
+
+*/
+
+@media screen and (max-height: 300px){
+    ul{
+        margin-top: 40px;
+    }
+    
+}

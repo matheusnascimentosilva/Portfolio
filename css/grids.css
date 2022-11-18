@@ -1,0 +1,140 @@
+body { 
+    font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav section aside"
+      "footer footer footer";
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-columns: 15% 1fr 18%;
+
+    height: 100vh;
+    margin: 0;
+
+  }
+  
+  header {
+    background-color: #03033f;
+    grid-area: header;
+  }
+  
+  nav {
+      background-color: #03033f;
+    grid-area: nav; 
+  }
+  
+  section {
+      background-color: #03033f;
+    grid-area: section;
+  }
+  
+  aside {
+      background-color: #03033f;
+    grid-area: aside; 
+  }
+  
+  footer {
+      background-color: #03033f;
+    grid-area: footer;
+  }
+
+ul {
+    margin: 5px auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 500px;
+    text-align: center;
+}
+
+.li{
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+
+
+a {
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.13em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:white;
+    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+    content: "";
+    width: 0;
+}
+
+a:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+    color: white;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.titulo {
+    place-items: center;
+    text-align: center;
+    font-size: 100px;
+    color: #87cccc;
+}
+.titulo:hover{
+    color: #ffffff;
+}
+.pararafos{
+    place-items: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+}
+.rodape{
+    place-items: center;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
